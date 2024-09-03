@@ -9,9 +9,6 @@ import org.hl7.fhir.r4.model.StringType;
 import java.util.Date;
 import java.util.Optional;
 
-/**
- * Hello world!
- */
 public class FhirParser {
   private FhirContext ctx = FhirContext.forR4();
   private IFhirPath fhirPath = ctx.newFhirPath();
